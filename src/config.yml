@@ -1,0 +1,33 @@
+#Commands
+topstats:
+  playercount: "5" #How many players are shown in top stats
+
+changeblock:
+    inv18: "399"
+    inv26: "399"
+    blocklist1: "236:14,241:14,152,234,218:14,46,215" #red -> max 18 items
+    blocklist2: "236:4,241:4,41,224,218:4,170,91" #yellow -> max 18 items
+
+#Game/Default Blocks
+block:
+  gameblock: "58"
+  defaultplayer1: "35:14"
+  defaultplayer2: "35:4"
+  inventorydefault: "102"
+  inventoryside: "340"
+
+#Waiting room Items
+
+waitingroom:
+  inv18: "381" #view other games
+  inv18replacement: "368" #if viewingromm is empty
+  inv21: "276" #accept
+  inv23: "351:1" #deny
+  inv26: "25" #stats
+  inv26replacement: "-161" #if player hasn't played before
+
+#Finish games
+game:
+  reward: #Custom Command /// executer = Console /// Example: givemoney %winner 200
+  winnersound: "RAID_HORN"
+

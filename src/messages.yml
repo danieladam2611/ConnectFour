@@ -1,0 +1,63 @@
+#Command Messages
+command:
+  name: "connectfour"
+  description: "Connect Four game manager"
+  usageMessage: "/connectfour {allgames, deletegame (number by /allgames), creategame (amount)}"
+  aliases: "cf,connectf,cfour"
+delete:
+  game: "§cThe game placed by§b %placer §cat§e %pos §chas been deleted"
+  gamedoesntexist: "§cGame wasn't found"
+create:
+  fullinventory: "§cThe item couldn't be added. Your inventory is full"
+no:
+  games: "§cNo game found"
+  console: "Only Ingame!"
+  permission: "§cYou don't have permissions to run this command!"
+  number: "§e%value §cisn't a number"
+
+#Statistics Messages
+stats:
+  title: "§r--- §l§fStatistics §r---"
+  button1: "Public Stats"
+  button2: "Statistics info"
+  button2neverplayed: "Never Player!!"
+playerstats:
+  titel: "§r--- §l§fStatistics§b %player §r---"
+  content: "§aWins:§e %wins %n§aLoses:§e %loses %n§aDraw:§e %decided %n§aKD:§e %kd %n§aPlayed Games:§e %playedgames %n§aPlayed Time:§e %time §amin %n%n§aRank:§e #%rank"
+button:
+  back: "Back"
+topstats:
+  title: "§r--- §l§fTop List §r---"
+fwblock:
+  name: "§r--- §l§fConnect Four §r---"
+window:
+  cantopen: "§cCan't open Stats Window!!"
+
+#ChangeBlocks Messages
+changeblock:
+  title: "Choose your block"
+  inv18: "§cRed Blocks"
+  inv26: "§eYellow Blocks"
+
+#Waiting room Messages
+
+waitingroom:
+  invname: "§r--- §l§fWaiting room §r---"
+  inv18: "§eView Games"
+  inv18replacement: "§cNo active game"
+  inv21: "§aaccept"
+  inv23: "§cdeny"
+  inv26: "§eStats"
+  inv26replacement: "§cNever Played Befor!"
+  full: "§cThere are already the maximum number of players in the queue. %n Please have a little patience"
+  cantopen: "§cWindow couldn't be open"
+
+#Game Messages
+
+gamefinish:
+  tittel: "§r--- §l§fConnect Four Result §r---"
+  decided: "§eDraw"
+  winner: "§aWinner:§b %winner"
+  loser: "§cLoser:§b %loser"
+  time: "§aTime played:§e %min §amin §e %sec §asec"
+  placedblocks: "§aPlaced blocks: §e %numbers"

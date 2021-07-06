@@ -1,0 +1,5 @@
+name: ConnectFour
+main: de.daniel.ConnectFourMain
+version: 1.0.0
+api: [1.0.0]
+author: Daniel Adam
