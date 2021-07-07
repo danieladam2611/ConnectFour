@@ -2,7 +2,7 @@
 command:
   name: "connectfour"
   description: "Connect Four game manager"
-  usageMessage: "/connectfour {allgames, deletegame (number by /allgames), creategame (amount)}"
+  usageMessage: "/connectfour {blocks, stats, allgames, deletegame (number by /allgames), creategame (amount)}"
   aliases: "cf,connectf,cfour"
 delete:
   game: "§cThe game placed by§b %placer §cat§e %pos §chas been deleted"
